@@ -1,0 +1,11 @@
+<launch>
+	<!-- WARNING: MongoDB instance "mongodb_store" MUST be running-->
+	<arg name="terrain" default="$(find rusty_simulation)/resources/lights.yaml"/> 	<!-- 2D Occupancy Grid Map -->
+	
+	<!-- lanch map server -->
+	<node name="terrain_server" pkg="map_server" type="map_server" args="$(arg terrain)">
+	  <remap from="/map" to="/terrain"/>
+	</node>
+	<node name="static_transform_publisher" pkg="tf" type="static_transform_publisher" args="1 0 0 0 0 0 1 /map odom 10"/>
+	<node pkg="rviz" type="rviz" name="rviz" args="$(find rusty_simulation)/support/rusty.rviz" /> 
+</launch>
