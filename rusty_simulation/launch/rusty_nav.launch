@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="topological_map"/>
+  <arg name="mon_nav_config_file" default=""/>
+
+  <node name="robot_pose_publisher" pkg="rusty_simulation" type="robot_pose_publisher.py"/>
+
+  <!--- Topological Navigation (includes monitored_navigation) -->
+  <include file="$(find topological_navigation)/launch/topological_navigation.launch">
+    <arg name="map" value="$(arg topological_map)"/>
+    <arg name="mon_nav_config_file" value="$(arg mon_nav_config_file)"/>
+  </include>
+
+</launch>

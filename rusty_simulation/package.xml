@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package>
+  <name>rusty_simulation</name>
+  <version>0.0.0</version>
+  <description>The rusty_simulation package</description>
+  <maintainer email="jaime@todo.todo">jaime</maintainer>
+  <license>TODO</license>
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <export>
+
+
+  </export>
+</package>

@@ -1,0 +1,7 @@
+
+
+55wvbgYQGX8wwVKqHkrH
+AIzaSyBRT6O0di_55wvbgYQGX8wwVKqHkrH-fnY 
+
+
+https://maps.googleapis.com/maps/api/staticmap?center=53.227003,-0.546266&zoom=12&size=640x640&maptype=terrain&key=AIzaSyBRT6O0di_55wvbgYQGX8wwVKqHkrH-fnY
