@@ -1,0 +1,6 @@
+image: green.png
+resolution: 0.25
+origin: [-104, -153.75, 0.0]
+occupied_thresh: 0.85
+free_thresh: 0.50
+negate: 1
