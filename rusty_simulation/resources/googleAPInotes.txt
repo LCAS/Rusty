@@ -1,7 +1,11 @@
-
-
-55wvbgYQGX8wwVKqHkrH
-AIzaSyBRT6O0di_55wvbgYQGX8wwVKqHkrH-fnY 
-
-
 https://maps.googleapis.com/maps/api/staticmap?center=53.227003,-0.546266&zoom=12&size=640x640&maptype=terrain&key=AIzaSyBRT6O0di_55wvbgYQGX8wwVKqHkrH-fnY
+
+
+
+https://maps.googleapis.com/maps/api/staticmap?center={y},{x}&zoom={z}&size=640x640&maptype=terrain&key=AIzaSyBRT6O0di_55wvbgYQGX8wwVKqHkrH-fnY
+
+
+
+http://a.tiles.mapbox.com/v4/mapbox.satellite/{z}/{x}/{y}.jpg?access_token=pk.eyJ1IjoiamFpbGFuZGVyIiwiYSI6ImNpdG42c29ieTAwMzMyeG83ZWIxcDg5ZHcifQ.4Lha6RXhdXCCjOFSK7fjnQ
+
+http://a.tiles.mapbox.com/v4/mapbox.satellite/0.2/53.227417/-0.549391.jpg?access_token=pk.eyJ1IjoiamFpbGFuZGVyIiwiYSI6ImNpdG42c29ieTAwMzMyeG83ZWIxcDg5ZHcifQ.4Lha6RXhdXCCjOFSK7fjnQ
